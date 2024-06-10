@@ -70,22 +70,27 @@
         <div align="center">
             <a href="https://ton.org/"><img width="128" src="./assets/kicon.png" alt="logo of telegram web apps"></a>
         </div>
-        <h1>درسها</h1>
-        <button onclick="Telegram.WebApp.showAlert('Hello World!');">Launch Alert</button>
-        <button onclick="showPopup();">Launch Popup</button>
 
-        <h1>موضوعات</h1>
-        <ul>
-            <li>
-                <a href="javascript:Telegram.WebApp.openTelegramLink('https://t.me/trendingapps');">Open link within Telegram</a>
-            </li>
-            <li>
-                <a href="javascript:Telegram.WebApp.openLink('https://ton.org/');">Open link in external browser</a>
-            </li>
-            <li>
-                <a href="javascript:Telegram.WebApp.openLink('https://telegra.ph/api',{try_instant_view:true});">Open link inside Telegram webview</a>
-            </li>
-        </ul>
+        <div align="center">
+            <h1>درسها</h1>
+            <button onclick="Telegram.WebApp.showAlert('Hello World!');">Launch Alert</button>
+            <button onclick="showPopup();">Launch Popup</button>
+        </div>
+
+        <div align="center">
+            <h1>موضوعات</h1>
+            <ul>
+                <li>
+                    <a href="javascript:Telegram.WebApp.openTelegramLink('https://t.me/trendingapps');">Open link within Telegram</a>
+                </li>
+                <li>
+                    <a href="javascript:Telegram.WebApp.openLink('https://ton.org/');">Open link in external browser</a>
+                </li>
+                <li>
+                    <a href="javascript:Telegram.WebApp.openLink('https://telegra.ph/api',{try_instant_view:true});">Open link inside Telegram webview</a>
+                </li>
+            </ul>
+        </div>
 
         <h1>Buttons</h1>
         <button onclick="Telegram.WebApp.expand();">Expand Webview</button>
