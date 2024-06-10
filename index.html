@@ -122,10 +122,10 @@
         function showPopup() {
             Telegram.WebApp.showPopup({
                 title: 'Title',
-                message: 'Some message',
+                message: 'شما درس «عادت های اتمی» را انتخاب کرده اید.',
                 buttons: [
-                    {id: 'link', type: 'default', text: 'Open ton.org'},
-                    {type: 'cancel'},
+                    {id: 'link', type: 'default', text: 'شروع درس'},
+                    {type: 'cancel', text: 'بیخیال'},
                 ]
             }, function(btn) {
                 if (btn === 'link') {
